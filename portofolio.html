@@ -73,6 +73,8 @@
                     <div class="alert alert-success" id="alert" role="alert">
                         Sukses!!!
                     </div>
+                    <div class="alert alert-warning" id="warning" role="alert">
+                    </div>
                     <h1>Message Us</h1>
                     <div class="mb-5" id="penngirim">
                         <div class="mb-2">
@@ -82,7 +84,7 @@
                         <div class="mb-2">
                             <label for="jenisKelamin" class="form-label">Jenis kelamin</label>
                             <select class="form-select" id="jenisKelamin">
-                                <option selected>Jenis Kelamin</option>
+                                <option selected value="default">Jenis Kelamin</option>
                                 <option value="Laki-Laki">Laki-Laki</option>
                                 <option value="Perempuan">Perempuan</option>
                             </select>
@@ -91,11 +93,11 @@
                             <label for="txtPesan" class="form-label">Pesan</label>
                             <textarea class="form-control" id="txtPesan" rows="3"></textarea>
                         </div>
-                        <button type="button" id="submit" class="btn btn-primary float-end">Kirim</button>
+                        <button type="button" id="submit" class="btn btn-primary mt-2 float-end">Kirim</button>
                     </div>
-                    <div class="mb-10 resultpesan" id="pesan">
+                    <div class="resultpesan" id="pesan">
                         <label for="txtResultPesan" class="form-label">Result</label>
-                        <textarea class="form-control" id="txtResultPesan" rows="20"></textarea>
+                        <textarea class="form-control" id="txtResultPesan" rows="20" disabled></textarea>
                     </div>
                 </div>
             </div>
