@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    padding: 40px;
+    margin: 10px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin: 10px;
+    border-top: 3px solid black;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.header {
+    background: black;
+}
+
+.foto {
+    width: 40%;
+    margin: auto;
+    background: black;
+    /* text-align: center; */
+}
+
+.skill {
+    height: 200px;
+    background: purple;
+}
+
+.project {
+    height: 200px;
+    background: red;
+}
+
+.contact {
+    height: 150px;
+    background: grey;
+}
