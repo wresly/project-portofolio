@@ -42,6 +42,12 @@ h2 {
 }
 
 .contact {
-    height: 150px;
-    background: grey;
+    text-align: start;
+    background: #494949;
+    border: 1px solid black;
+}
+
+
+.contact button {
+    width: 20%;
 }
