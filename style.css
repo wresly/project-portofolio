@@ -16,19 +16,19 @@ hr {
     border-top: 3px solid black;
 }
 
-h2 {
-    margin-left: 10px;
-}
 
 .header {
     background: black;
 }
 
-.foto {
-    width: 40%;
-    margin: auto;
-    background: black;
-    /* text-align: center; */
+#Biodata h1 {
+    color: black;
+}
+
+.imagetest {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .skill {
