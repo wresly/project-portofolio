@@ -7,12 +7,14 @@
     padding: 40px;
     margin: 10px;
     margin-top: 0px;
-    text-align: center;
-    color: white;
+    color: black;
+}
+
+hr:nth-of-type(0) {
+    margin: 10px;
 }
 
 hr {
-    margin: 10px;
     border-top: 3px solid black;
 }
 
@@ -54,4 +56,16 @@ hr {
 
 .resultpesan {
     margin-top: 100px;
+}
+
+#skill h1,
+#project h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#skill .col,
+#project .col {
+    display: flex;
+    justify-content: center;
 }
