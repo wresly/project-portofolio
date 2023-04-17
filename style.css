@@ -3,21 +3,19 @@
     padding: 0px;
 }
 
-.box {
-    padding: 40px;
-    margin: 10px;
-    margin-top: 0px;
-    color: black;
-}
-
-hr:nth-of-type(0) {
-    margin: 10px;
+body {
+    background-color: #f0f2f5;
 }
 
 hr {
+    width: 60%;
     border-top: 3px solid black;
 }
 
+.headsection {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
 .header {
     background: black;
@@ -32,6 +30,8 @@ hr {
     width: 200px;
     height: 200px;
 }
+
+
 
 .skill {
     height: 200px;
@@ -49,6 +49,12 @@ hr {
     border: 1px solid black;
 }
 
+.box {
+    padding: 40px;
+    margin: 10px;
+    margin-top: 0px;
+    color: black;
+}
 
 .contact button {
     width: 20%;
